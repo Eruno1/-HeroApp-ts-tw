@@ -34,6 +34,7 @@
     "react/prop-types": "off",
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
+    "object-curly-spacing": ["error", "always"],
     "prettier/prettier": [
       "warn",
       {
@@ -42,7 +43,7 @@
         "tabWidth": 2,
         "semi": true,
         "singleQuote": false,
-        "bracketSpacing": false,
+        "bracketSpacing": true,
         "arrowParens": "always",
         "endOfLine": "auto"
       }
